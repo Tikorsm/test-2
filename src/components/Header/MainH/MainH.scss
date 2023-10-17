@@ -1,0 +1,183 @@
+main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+
+    span {
+        display: flex;
+
+        align-items: center;
+
+        .p1 {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px;
+            border-radius: 100px;
+            background: #81C43B;
+            padding: 8px 16px;
+            z-index: 1;
+
+        }
+
+        .p2 {
+            position: relative;
+            right: 15px;
+            color: #35414B;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+            border-radius: 0px 100px 100px 0px;
+            background: #F2F9EB;
+            padding: 8px 16px;
+            z-index: 0;
+        }
+    }
+
+
+    h1 {
+        width: 760px;
+        color: #35414B;
+        text-align: center;
+        font-family: Inter;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 72px;
+    }
+
+    .textt {
+        width: 505px;
+        color: #4E5A65;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+
+
+    }
+
+    div {
+        display: flex;
+
+        input {
+
+            width: 322px;
+            padding: 18px 24px;
+            align-items: flex-start;
+            gap: 10px;
+            border-radius: 4px 0px 0px 4px;
+            border: 1px solid #E1E5EA;
+            background: #FFF;
+            outline: none;
+        }
+
+        button {
+            border-radius: 0px 4px 4px 0px;
+            border: 1px solid #794CFF;
+            background: #794CFF;
+            display: flex;
+            padding: 18px 45px;
+            align-items: flex-start;
+            gap: 10px;
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px;
+            cursor: pointer;
+
+        }
+    }
+}
+
+@media (max-width: 600px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .p1 {
+            display: none;
+        }
+
+        .p2 {
+
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 13px;
+        }
+
+        h1 {
+            width: 300px;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 40px;
+        }
+
+        .textt {
+            width: 300px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                width: 300px;
+                padding: 18px 24px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                border-radius: 4px 0px 0px 4px;
+                border: 1px solid #E1E5EA;
+                background: #FFF;
+                outline: none;
+            }
+
+            input::placeholder {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+
+            button {
+                width: 300px;
+                color: #FFF;
+                text-align: center;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 16px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+        }
+
+        .img {
+            width: 384px;
+            height: 273.288px;
+            flex-shrink: 0;
+        }
+    }
+}

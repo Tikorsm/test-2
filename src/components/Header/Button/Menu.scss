@@ -1,0 +1,30 @@
+
+.menu{
+    display: none;
+    
+}
+
+@media (max-width: 600px) {
+    
+    .menu{
+        max-width: 430px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        
+        .icon{
+           font-size: 35px;
+        }
+
+        span{
+            color: #4E5A65;
+text-align: center;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 8px; /* 100% */
+        }
+    }
+ }

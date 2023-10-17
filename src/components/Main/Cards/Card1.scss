@@ -1,0 +1,156 @@
+.containe {
+
+    position: relative;
+    left: 1px;
+    width: 564px;
+    height: 467px;
+    border: 1px solid #E1E5EA;
+    background: #FFF;
+    border-radius: 4px;
+    display: flex;
+
+    #h3 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 20px;
+        top: 20px;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .h3 {
+        height: 16px;
+        color: #4E5A65;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        left: 0;
+
+    }
+
+
+    .esq_aria {
+        display: flex;
+        gap: 10px;
+
+        .line1 {
+            width: 1px;
+            height: 250px;
+            background: #E1E5EA;
+        }
+
+        .line2 {
+            width: 1px;
+            height: 42px;
+            background: #E1E5EA;
+        }
+
+        .icon2 {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            gap: 15px;
+            margin-left: 10px;
+
+            .temp {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 29px;
+                height: 29px;
+                color: #0DCE5E;
+                background: #E5F8ED;
+                border-radius: 50%;
+            }
+
+            .mens {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 29px;
+                height: 29px;
+                color: #F4CC4E;
+                background: #FDF8E8;
+                border-radius: 50%;
+            }
+        }
+
+        .coment {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .ti {
+                max-width: 160px;
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .con {
+                max-width: 236px;
+                height: 64px;
+                flex-shrink: 0;
+                border-radius: 4px;
+                border: 1px solid #E1E5EA;
+                background: #FFF;
+                display: flex;
+                align-items: center;
+
+            }
+
+            .main_h3 {
+                color: #4E5A65;
+                font-family: Inter;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 13px;
+
+            }
+
+            .main_p {
+                color: #4E5A65;
+                font-family: Inter;
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 11px;
+                /* 100% */
+            }
+
+            .main_p2 {
+                color: #4E5A65;
+                font-family: Inter;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+                margin-left: 10px;
+            }
+
+            .st {
+                color: #3B7FF6;
+                font-family: Inter;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+                /* 123.077% */
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .containe{
+        
+        display: none;
+    }
+ }

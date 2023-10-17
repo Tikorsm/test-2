@@ -1,0 +1,129 @@
+.card {
+    display: flex;
+
+    align-items: start;
+    border-radius: 4px;
+    border: 1px solid #E1E5EA;
+    background: #FFF;
+    width: 363px;
+    height: 362px;
+    flex-shrink: 0;
+    margin: 20px;
+    z-index: 1;
+    position: relative;
+    right: 120px;
+    top: 90px;
+
+    .ali {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+
+
+        .card1 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 20px;
+
+
+            .span_ti {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+
+                .spanh4 {
+                    color: #4E5A65;
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 13px;
+                    /* 100% */
+                }
+
+                .spanh5 {
+                    color: #4E5A65;
+                    font-family: Inter;
+                    font-size: 10px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 10px;
+                    /* 100% */
+                }
+
+            }
+
+
+        }
+
+        .span_card {
+            width: 299px;
+            height: 195px;
+            flex-shrink: 0;
+            border-radius: 4px;
+            border: 1px solid #E1E5EA;
+            background: #FFF;
+            margin: 20px;
+            padding: 20px;
+            display: flex;
+            align-items: start;
+
+            .spanp {
+                color: #4E5A65;
+                font-family: Inter;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
+
+                strong {
+                    color: #3B7FF6;
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+                    /* 153.846% */
+                }
+            }
+        }
+
+
+        .btns {
+
+            display: flex;
+            position: relative;
+            justify-content: end;
+            bottom: 30px;
+            margin: 10px;
+
+        }
+
+        .span_btn {
+            border-radius: 4px;
+            background: #3B7FF6;
+            color: #FFF;
+            font-family: Inter;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 13px;
+            width: 90px;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .card{
+        
+        display: none;
+    }
+ }

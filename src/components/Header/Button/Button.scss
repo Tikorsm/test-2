@@ -1,0 +1,35 @@
+
+.pi {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    padding: 16px 23px;
+    align-items: flex-start;
+    border-radius: 4px;
+    border: none;
+    background: #ECE5FF;
+    color: #794CFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    
+    .pi{
+       
+        display: none;
+    }
+    button{
+       
+        display: none;
+    }
+ }

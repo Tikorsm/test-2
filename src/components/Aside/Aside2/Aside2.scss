@@ -1,0 +1,221 @@
+.aside2 {
+    max-width: 1100px;
+    margin: 50px 0;
+
+    .aside2_div {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+
+        .h1_aside {
+
+            color: #35414B;
+            text-align: center;
+            font-family: Inter;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 48px;
+
+        }
+
+        .p_aside {
+            max-width: 543px;
+            color: #4E5A65;
+            text-align: center;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+
+        }
+    }
+
+    .div_aside2 {
+        margin: 40px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .div-asi {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .aside_h5 {
+                color: #4E5A65;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 16px;
+
+            }
+
+            .aside_h6 {
+                color: #4E5A65;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+
+            }
+        }
+
+        .asi {
+            width: 264px;
+            border-top: 4px solid black;
+            padding: 10px;
+        }
+    }
+
+    .div_car {
+        width: 100%;
+        display: inline-flex;
+        padding: 64px 80px;
+        align-items: center;
+        gap: 143px;
+        border-radius: 16px;
+        background: #796EFF;
+
+        .h1_car {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 48px;
+            /* 150% */
+        }
+
+        .div_imgc {
+            display: flex;
+            align-items: flex-start;
+            gap: 24px;
+           
+           
+        }
+    }
+}
+@media (max-width: 600px) {
+    
+    .aside2{ 
+        max-width: 412px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        .aside2_div {
+            max-width: 380px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+    
+            .h1_aside {
+    
+                color: #35414B;
+                text-align: center;
+                font-family: Inter;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 48px;
+    
+            }
+    
+            .p_aside {
+                max-width: 543px;
+                color: #4E5A65;
+                text-align: center;
+                font-family: Inter;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+    
+            }
+        }
+    
+        .div_aside2 {
+            max-width: 300px;
+            margin: 40px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            .div-asi {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+    
+                .aside_h5 {
+                    color: #35414B;
+                    text-align: center;
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 24px; /* 133.333% */
+    
+                }
+    
+                .aside_h6 {
+                 
+
+font-size: 18px;
+
+line-height: 32px; 
+    
+                }
+            }
+    
+            .asi {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 9px;
+                border: none;
+        
+            }
+            .asi2 {
+               display: none;
+            }
+        }
+    
+        .div_car {
+            max-width: 412px;
+            display: flex;
+            padding: 32px 46px;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            border-radius: 0;
+            background: #796EFF;
+    
+            .h1_car {
+                width: 300px;
+
+font-size: 24px;
+
+line-height: 32px; 
+            }
+    
+            .div_imgc {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 24px;
+               
+               
+            }
+        }
+    }
+ }
