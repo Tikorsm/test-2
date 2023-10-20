@@ -9,12 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "git": "^0.1.5",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-icon": "^1.0.0",
-    "react-icons": "^4.11.0"
+    "react-icons": "^4.11.0",
+    "sass": "^1.69.4"
   },
   "devDependencies": {
     "@types/node": "latest",
