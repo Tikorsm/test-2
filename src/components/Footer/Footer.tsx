@@ -1,11 +1,11 @@
 import Image from "next/image";
 import GP2 from '@/assets/Layer2.svg'
 import AS2 from '@/assets/Group.svg'
-import {AiOutlineInstagram} from 'react-icons/ai'
-import {BiBasketball} from 'react-icons/bi'
-import {AiOutlineTwitter} from 'react-icons/ai'
-import {AiFillYoutube} from 'react-icons/ai'
-import {MdKeyboardArrowDown} from 'react-icons/md'
+import { AiOutlineInstagram } from 'react-icons/ai'
+import { BiBasketball } from 'react-icons/bi'
+import { AiOutlineTwitter } from 'react-icons/ai'
+import { AiFillYoutube } from 'react-icons/ai'
+import { MdKeyboardArrowDown } from 'react-icons/md'
 import './Footer.scss'
 
 export function Footer() {
