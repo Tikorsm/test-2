@@ -2,7 +2,7 @@
 import './MainH.scss'
 import Image from 'next/image'
 import GR from '@/assets/Graph2.jpg'
-import {MdKeyboardArrowRight} from 'react-icons/md'
+import { MdKeyboardArrowRight } from 'react-icons/md'
 
 export function MainH() {
     return(

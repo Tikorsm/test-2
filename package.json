@@ -12,7 +12,8 @@
     "git": "^0.1.5",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-icon": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "latest",

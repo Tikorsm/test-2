@@ -1,6 +1,6 @@
 
 import './Link.scss'
-import {MdKeyboardArrowDown} from 'react-icons/md'
+import { MdKeyboardArrowDown } from 'react-icons/md'
 
 export function Link() {
     return(

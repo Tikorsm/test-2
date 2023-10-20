@@ -1,6 +1,6 @@
 
 import './Menu.scss'
-import {AiOutlineMenu} from 'react-icons/ai'
+import { AiOutlineMenu } from 'react-icons/ai'
 
 export function Menu() {
     return(

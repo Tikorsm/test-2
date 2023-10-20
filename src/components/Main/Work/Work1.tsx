@@ -1,10 +1,10 @@
 
-import {BsBarChartLineFill} from 'react-icons/bs'
-import {RiContactsBookFill} from 'react-icons/ri'
-import {FaUserGraduate} from 'react-icons/fa'
-import {SiGooglechat} from 'react-icons/si'
-import {TbHierarchy3} from 'react-icons/tb'
-import {BsTools} from 'react-icons/bs'
+import { BsBarChartLineFill } from 'react-icons/bs'
+import { RiContactsBookFill } from 'react-icons/ri'
+import { FaUserGraduate } from 'react-icons/fa'
+import { SiGooglechat } from 'react-icons/si'
+import { TbHierarchy3 } from 'react-icons/tb'
+import { BsTools } from 'react-icons/bs'
 
 import './Work.scss'
 
